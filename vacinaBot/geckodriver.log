@@ -3937,3 +3937,70 @@ console.error: (new TypeError("this._searchProviderInfo is null", "resource:///m
 console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
 ATTENTION: default value of option mesa_glthread overridden by environment.
 1691976426668	Marionette	INFO	Stopped listening on port 41131
+1692061652858	geckodriver	INFO	Listening on 127.0.0.1:42529
+1692061655733	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileetFySQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692061665778	Marionette	INFO	Marionette enabled
+1692061666541	Marionette	INFO	Listening on port 36861
+Read port: 36861
+Read port: 36861
+Read port: 36861
+Read port: 36861
+1692061670396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 757))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692061751961	Marionette	INFO	Stopped listening on port 36861
+1692061875644	geckodriver	INFO	Listening on 127.0.0.1:51789
+1692061877707	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilenD7ULu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692061888212	Marionette	INFO	Marionette enabled
+1692061888706	Marionette	INFO	Listening on port 33663
+Read port: 33663
+Read port: 33663
+Read port: 33663
+1692061891534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692061996930	Marionette	INFO	Stopped listening on port 33663
+1692062074464	geckodriver	INFO	Listening on 127.0.0.1:38851
+1692062076020	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile4g2lhR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692062077312	Marionette	INFO	Marionette enabled
+1692062077464	Marionette	INFO	Listening on port 42115
+Read port: 42115
+1692062079204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692062219145	Marionette	INFO	Stopped listening on port 42115
+1692062302060	geckodriver	INFO	Listening on 127.0.0.1:36783
+1692062303705	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileUEMKnx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692062305480	Marionette	INFO	Marionette enabled
+1692062305690	Marionette	INFO	Listening on port 45973
+Read port: 45973
+1692062306421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692062328915	Marionette	INFO	Stopped listening on port 45973

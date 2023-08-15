@@ -9,6 +9,7 @@ BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
 import pandas as pd
 from datetime import datetime
+from openpyxl import load_workbook
 
 
 def main():
@@ -42,9 +43,9 @@ def main():
     dom_data = bot.find_element(xpath_data, By.XPATH)
     dom_doses = bot.find_element(xpath_doses, By.XPATH)
     
-    # data_str = dom_data.get_attribute('innerHTML')
+    data_str = dom_data.get_attribute('innerHTML')
     doses = dom_doses.get_attribute('innerHTML')
-    data_str = '21/08/2023'
+    # data_str = '21/08/2023'
     
     #inicio do pandas
     data = datetime.strptime(data_str, '%d/%m/%Y')
@@ -63,6 +64,27 @@ def main():
         existing_df = existing_df._append(new_row, ignore_index=True)
         existing_df.to_excel("teste.xlsx", sheet_name="teste", index=False)
         print("Nova linha adicionada.")
+        
+    book = load_workbook("teste.xlsx")
+
+    # Acessar a planilha
+    worksheet = book.active
+
+    # Ajustar o tamanho das colunas
+    for column in worksheet.columns:
+        max_length = 0
+        column = list(column)
+        for cell in column:
+            try:
+                if len(str(cell.value)) > max_length:
+                    max_length = len(str(cell.value))
+            except:
+                pass
+        adjusted_width = (max_length + 2)
+        worksheet.column_dimensions[column[0].column_letter].width = adjusted_width
+
+    # Salvar o arquivo Excel novamente
+    book.save("teste.xlsx")
 
     print(existing_df)
     
